@@ -13,7 +13,7 @@ using gcloud_voice;
 public class RealTimeVoice : MonoBehaviour {
 
 	private IGCloudVoice m_voiceengine = GCloudVoice.GetEngine();  //engine have init int mainscene start function
-	private string m_roomName = "cz-test";
+	private string m_roomName = "8";
 
 
 	private Text m_logtext;
